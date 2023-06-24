@@ -1,0 +1,88 @@
+.setting{
+    flex: 9;
+    display: flex;
+}
+
+.settingWrapper{
+   flex: auto;
+    padding: 20px;
+}
+
+.settingTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settingUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: lightcoral;
+}
+.settingDeleteTitle{
+    color: brown;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.settingForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingPP>img{
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.settingPPIcon{
+
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: rgb(214, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(203, 84, 84);
+    cursor: pointer;
+}
+
+.settingForm>label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingForm>input{
+    
+    font-size: 20px;
+    margin: 10px 0;
+    line-height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settingSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(233, 230, 225);
+    background-color: teal;
+    cursor: pointer;
+
+}
+
+.settingForm>input:focus {
+    outline: none;
+}

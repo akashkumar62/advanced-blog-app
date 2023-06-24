@@ -1,0 +1,74 @@
+.login{
+        height: calc(100vh - 50px);
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(255, 255, 255, 0.5),
+                rgba(255, 255, 255, 0.5)),
+            url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+        background-size: cover;
+}
+
+.loginTitle{
+font-size: 40px;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label{
+    margin: 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.loginInput{
+    padding: 15px 30px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.loginButton{
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(90, 4, 4);
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top:65px;
+    right:20px;
+    margin: 10px;
+    padding:12px 30px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+
+   
+}
+
+.loginInput:focus {
+    outline: none;
+}

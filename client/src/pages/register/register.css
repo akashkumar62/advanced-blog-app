@@ -1,0 +1,68 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
+        url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPpVkP2Qd2gSoAMEC8sealGUcJAlXqPvsvSI5a3FpgsIUSDjxgJJttaZgKDAd78k8P3gc&usqp=CAU");
+    background-size: cover;
+}
+
+.registerTitle {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm>label {
+    margin: 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.registerInput {
+    padding: 15px 30px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.registerButton {
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    margin: 10px;
+    padding: 12px 30px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.registerInput:focus {
+    outline: none;
+}

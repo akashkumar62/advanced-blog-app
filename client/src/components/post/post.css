@@ -1,0 +1,128 @@
+.post{
+    width: 400px;
+  margin-left: 20px;
+  margin-top: 10px;
+  align-items: center;
+    /* margin: 0px 2px 40px 25px; */
+
+
+}
+
+.postImg {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postCat{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 11px;
+    color: #be9656;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right:10px ;
+    cursor: pointer;
+}
+
+.postTitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    /* text-align: center; */
+    font-weight: 500;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postDate{
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 15px;
+    color: #999;
+}
+
+.postDesc{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 22px;
+    margin-top: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+
+}
+
+@media (max-width: 400px){
+    .post {
+            width: 430px;
+            margin-left: 32px;
+            margin-top: 10px;
+            align-items: center;
+            /* margin: 0px 2px 40px 25px; */
+    
+    
+        }
+    
+        .postImg {
+            width: 93%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 7px;
+        }
+    
+        .postInfo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .postCat {
+            font-family: 'Varela Round', sans-serif;
+            font-size: 11px;
+            color: #be9656;
+            line-height: 20px;
+            margin-top: 15px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    
+        .postTitle {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 24px;
+            /* text-align: center; */
+            font-weight: 500;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+    
+        .postDate {
+            font-family: 'Lora', serif;
+            font-size: 15px;
+            font-style: italic;
+            margin-top: 15px;
+            color: #999;
+        }
+    
+        .postDesc {
+            font-family: 'Varela Round', sans-serif;
+            font-size: 16px;
+            color: #444;
+            line-height: 22px;
+            margin-top: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+    
+        }
+}

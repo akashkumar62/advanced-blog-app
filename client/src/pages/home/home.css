@@ -1,0 +1,15 @@
+.home{
+ /* flex: 9; */
+ /* position: absolute; */
+ min-height: 100vh;
+ overflow-y: hidden;
+ width: 95vw;
+display: flex;
+flex-direction: column;
+/* height: 95vh; */
+
+}
+
+.home::-webkit-scrollbar {
+ display: none;
+}
